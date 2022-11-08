@@ -827,7 +827,7 @@
     }
 
     .hero-area .partner-container {
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 0px -18px;
         width: 1000px;
         overflow: hidden;
     }
@@ -881,6 +881,10 @@
     /*-----------------------------
 ** Hero Area Start
 ------------------------------*/
+    .hero-container {
+        margin: -340px 0px 0px 0px;
+    }
+
     .left-content {
         margin: -150px 0px 0px 0px;
         width: 490px;
@@ -982,9 +986,88 @@
     .partnership .deal-slider-area {
         padding-left: 40px;
     }
+
+    /* Slider for mobile */
+    .hero-area .partner-container {
+        display: block;
+    }
+
+    .hero-area .partner-container {
+        margin: -120px 0px -20px 0px;
+        width: 1000px;
+        overflow: hidden;
+    }
+
+    .hero-area .partner-slider {
+        height: 300px;
+        animation: slidein 15s linear infinite;
+        white-space: nowrap;
+    }
+
+    .hero-area .partner-logos {
+        width: 100%;
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .hero-area .partner-container .partner-slider .partner-logos img {
+        margin: 0px 6px;
+        width: 360px;
+    }
+
+    .hero-area .fab {
+        width: calc(100% / 15);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+    }
+
+    @keyframes slidein {
+        from {
+            transform: translate3d(0, 0, 0);
+        }
+
+        to {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+    /*-----------------------------
+** Hero Area Start
+------------------------------*/
+    .hero-container {
+        margin: -340px 0px 0px -10px;
+    }
+
+    .left-content {
+        margin: -40px 0px 0px 0px;
+        width: 358px;
+        padding: 0px 35px;
+    }
+
+    /* Carousel button styles */
+
+    .carousel-arrow {
+        width: auto;
+        display: flex;
+        margin: -40px 0px 0px 25px;
+        /* justify-content: center; */
+    }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 413px) {
     .contact .info-contact li .info-box {
         display: flow-root;
         text-align: center;
@@ -1010,6 +1093,86 @@
 
     .partnership .deal-slider-area {
         padding-left: 40px;
+    }
+
+
+    /* Slider for mobile */
+    .hero-area .partner-container {
+        display: block;
+    }
+
+    .hero-area .partner-container {
+        margin: -120px 0px -20px 0px;
+        width: 1000px;
+        overflow: hidden;
+    }
+
+    .hero-area .partner-slider {
+        height: 300px;
+        animation: slidein 15s linear infinite;
+        white-space: nowrap;
+    }
+
+    .hero-area .partner-logos {
+        width: 100%;
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .hero-area .partner-container .partner-slider .partner-logos img {
+        margin: 0px 6px;
+        width: 360px;
+    }
+
+    .hero-area .fab {
+        width: calc(100% / 15);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+    }
+
+    @keyframes slidein {
+        from {
+            transform: translate3d(0, 0, 0);
+        }
+
+        to {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+    /*-----------------------------
+** Hero Area Start
+------------------------------*/
+    .hero-container {
+        margin: -340px 0px 0px -10px;
+    }
+
+    .left-content {
+        margin: -40px 0px 0px 0px;
+        width: 358px;
+        padding: 0px 35px;
+    }
+
+    /* Carousel button styles */
+
+    .carousel-arrow {
+        width: auto;
+        display: flex;
+        margin: -40px 0px 0px 25px;
+        /* justify-content: center; */
     }
 }
 
@@ -1050,4 +1213,86 @@
     .partnership .deal-slider-area {
         padding-left: 40px;
     }
+
+
+    /* Slider for mobile */
+    .hero-area .partner-container {
+        display: block;
+    }
+
+    .hero-area .partner-container {
+        margin: -120px 0px -20px 0px;
+        width: 1000px;
+        overflow: hidden;
+    }
+
+    .hero-area .partner-slider {
+        height: 300px;
+        animation: slidein 15s linear infinite;
+        white-space: nowrap;
+    }
+
+    .hero-area .partner-logos {
+        width: 100%;
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .hero-area .partner-container .partner-slider .partner-logos img {
+        margin: 0px 6px;
+        width: 360px;
+    }
+
+    .hero-area .fab {
+        width: calc(100% / 15);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+    }
+
+    @keyframes slidein {
+        from {
+            transform: translate3d(0, 0, 0);
+        }
+
+        to {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+    /*-----------------------------
+** Hero Area Start
+------------------------------*/
+    .hero-container {
+        margin: -340px 0px 0px -10px;
+    }
+
+    .left-content {
+        margin: -40px 0px 0px 0px;
+        width: 358px;
+        padding: 0px 35px;
+    }
+
+    /* Carousel button styles */
+
+    .carousel-arrow {
+        width: auto;
+        display: flex;
+        margin: -40px 0px 0px 25px;
+        /* justify-content: center; */
+    }
+
+
 }
