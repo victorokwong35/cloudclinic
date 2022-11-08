@@ -3184,6 +3184,15 @@ select:focus {
   margin-bottom: 20px;
 }
 
+.filter-btn {
+  background-color: #00bff1;
+  color: white;
+}
+
+.filter-btn:hover {
+  color: white;
+}
+
 .partner-navigation .nav-pills {
   background-color: rgb(242, 242, 242);
   border: 1px solid rgb(208, 208, 208);
