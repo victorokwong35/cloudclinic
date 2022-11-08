@@ -393,6 +393,15 @@
     .partnership .deal-slider-area {
         padding-left: 40px;
     }
+
+    /* PARTNERS */
+    .partner-page .tab-pane .med-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        gap: 1rem;
+    }
+
 }
 
 
@@ -524,10 +533,6 @@
         }
     }
 
-
-
-
-
     /*-----------------------------
 ** Hero Area Start
 ------------------------------*/
@@ -550,7 +555,20 @@
         /* justify-content: center; */
     }
 
+    /* PARTNERS */
+    .partner-page .tab-pane .med-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        gap: 1rem;
+    }
 
+}
+
+@media only screen and (max-width: 767px) {
+    .partner-navigation .nav-link {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 650px) {
@@ -767,6 +785,14 @@
         /* justify-content: center; */
     }
 
+    /* PARTNERS */
+    .partner-page .tab-pane .med-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        gap: 1rem;
+    }
+
 
 }
 
@@ -900,6 +926,18 @@
         /* justify-content: center; */
     }
 
+
+    /* PARTNERS */
+    .partner-page .tab-pane .med-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        gap: 1rem;
+    }
+
+    .partner-navigation .nav-link {
+        font-size: 8px;
+    }
 
 
 }
@@ -1063,8 +1101,21 @@
         width: auto;
         display: flex;
         margin: -40px 0px 0px 25px;
-        /* justify-content: center; */
     }
+
+    /* PARTNERS */
+    .partner-page .tab-pane .med-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        gap: 1rem;
+    }
+
+    .partner-page .tab-pane .medicals h5 {
+        font-size: 10px;
+        margin: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 413px) {

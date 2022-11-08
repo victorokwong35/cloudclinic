@@ -3176,7 +3176,9 @@ select:focus {
 .partner-navigation .nav-item .active {
   background-color: #00bff1;
   border-radius: 0px;
+  height: auto;
 }
+
 
 .partner-navigation {
   margin-bottom: 20px;
