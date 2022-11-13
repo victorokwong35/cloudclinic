@@ -1604,7 +1604,7 @@ select:focus {
 }
 
 .whaybest .about-img img {
-  animation: shapeani3 5s linear infinite;
+  /* animation: shapeani3 5s linear infinite; */
 }
 
 .whaybest .feature-list {
